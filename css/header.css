@@ -1,0 +1,14 @@
+.navigation__header {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: #fbfbfb;
+    background-color: #151726;
+}
+
+.section__subHeader {
+    padding: 7px;
+    text-align: center;
+    color: #fbfbfb;
+    background-color: #151726;
+}

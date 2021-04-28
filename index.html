@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcin Pankiewicz - Strona domowa - Wizytówka - Portfolio </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/musictable.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <nav class="navigation">
+        <h1 class="navigation__header" id="strona-glowna">Cześć! Witam Cię na mojej stronie :)</h1>
+        <ul class="navigation__list">
+            <li class="navigation__item">
+                <a href="#o-mnie" class="navigation__link">O mnie</a>
+            </li>
+            <li class="navigation__item">
+                <a href="#zainteresowania" class="navigation__link">Zainteresowania</a>
+            </li>
+            <li class="navigation__item">
+                <a href="#kontakt" class="navigation__link">Kontakt</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section class="section" id="o-mnie">
+            <h2 class="section__subHeader">O mnie</h2>
+            <img class="section__image js-section__image" src="https://i.postimg.cc/kMf1Tzc2/marcin.jpg"
+                alt="Marcin Pankiewicz">
+            <button class="section__button js-hideShowImageButton">Ukryj zdjęcie</button>
+            <p class="section__paragraph">
+                Mam na imię <strong>Marcin</strong>, mieszkam w niewielkiej miejscowości pod Krosnem w
+                woj.
+                Podkarpackim. W
+                tym roku kończę 34 lata, z wykształcenia jestem inżynierem sieciowych systemów informatycznych a
+                zawodowo zajmuję się programowaniem maszyn CNC. Moja kariera zawodowa
+                rozpoczęła
+                się w 2008 roku kiedy to wyjechałem za granicę i rozpocząłem pracę w fabryce zajmującej się obróbką
+                metalu.
+                Od tego czasu jestem związany z tą branżą i wiem, że więcej w tym fachu już nie osiągnę a mam chęć
+                nadal się rozwijać i w przyszłości ziiścić swoje najskrytsze marzenie jakim jest zostanie programistą.
+            </p>
+        </section>
+        <section class="section" id="zainteresowania">
+            <h2 class="section__subHeader">Zainteresowania</h2>
+            <p class="section__paragraph">
+                Po pracy w wolnym czasię lubię majsterkować z elektroniką i trochę bawię się w
+                programowanie
+                mikrokontrolerów, zabawa przednia i kilka fajnych projektów udało mi się zrealizować. Jeśli chodzi o
+                muzykę
+                to generalnie słucham różnych podgatunków muzyki elektronicznej ale głownie <i>Trance</i>,
+                <i>Rave</i>, <i>Hardstyle</i>
+                i wiele innych. Oczywiście nie jestem zakmnięty na inne bo posłucham hip-hopu czy
+                nawet metalu gotyckiego :)
+            </p>
+            <p class="section__paragraph">
+                Poniżej umieściłem tebelę z artystami i utworami, które w chwili obecnej słucham na okrągło :) Jeśli
+                jest ktoś zainteresowany i chciałby posłuchać czego słucham to zapraszam do linków :)
+            </p>
+            <table class="musicTable js-musicTable">
+                <caption class="musicTable__caption">Moje ulubione utwory </caption>
+                <tr class="musicTable__row">
+                    <th class="musicTable__cell musicTable__header--cell" scope="col"> Artysta</th>
+                    <th class="musicTable__cell musicTable__header--cell" scope="col">Tytuł</th>
+                    <th class="musicTable__cell musicTable__header--cell" scope="col">Rok wydania</th>
+                    <th class="musicTable__cell musicTable__header--cell" scope="col">Słuchaj w Youtube</th>
+                </tr>
+                <tr class="musicTable__row">
+                    <th class="musicTable__cell musicTable__header--cell" scope="row">Armin Van Buuren</th>
+                    <td class="musicTable__cell">Slow Lane</td>
+                    <td class="musicTable__cell">2020</td>
+                    <td class="musicTable__cell"><a target="_blank" class="musicTable__link"
+                            href="https://www.youtube.com/watch?v=YMkV-aK9r-s">YouTube</a> <span
+                            class="musicTable__newTab"> (otwórz w nowej karcie)</span>
+                    </td>
+                </tr>
+                <tr class="musicTable__row">
+                    <th class="musicTable__cell musicTable__header--cell" scope="row">David Guetta & Morten
+                    </th>
+                    <td class="musicTable__cell">Make It To Heaven</td>
+                    <td class="musicTable__cell">2019</td>
+                    <td class="musicTable__cell"><a target="_blank" class="musicTable__link"
+                            href="https://www.youtube.com/watch?v=SahRw77yvx0">YouTube</a><span
+                            class="musicTable__newTab"> (otwórz w nowej karcie)</span></td>
+                </tr>
+                <tr class="musicTable__row">
+                    <th class="musicTable__cell musicTable__header--cell" scope="row">Dylhen</th>
+                    <td class="musicTable__cell">Alive</td>
+                    <td class="musicTable__cell">2021</td>
+                    <td class="musicTable__cell"><a target="_blank" class="musicTable__link"
+                            href="https://www.youtube.com/watch?v=7YR6fED1P6Q">YouTube</a> <span
+                            class="musicTable__newTab"> (otwórz w nowej karcie)</span></td>
+                </tr>
+                <tr class="musicTable__row">
+                    <th class="musicTable__cell musicTable__header--cell" scope="row">Sander van Doorn</th>
+                    <td class="musicTable__cell">Golden</td>
+                    <td class="musicTable__cell">2021</td>
+                    <td class="musicTable__cell"><a target="_blank" class="musicTable__link"
+                            href="https://www.youtube.com/watch?v=OrdAuPMmtxw">YouTube</a> <span
+                            class="musicTable__newTab"> (otwórz w nowej karcie)</span></td>
+                </tr>
+                <tr class="musicTable__row">
+                    <th class="musicTable__cell musicTable__header--cell" scope="row">Gareth Emery feat.
+                        Evan Henzi</th>
+                    <td class="musicTable__cell">Call To Arms (Cosmic Gate Remix)</td>
+                    <td class="musicTable__cell">2018</td>
+                    <td class="musicTable__cell"><a target="_blank" class="musicTable__link"
+                            href="https://www.youtube.com/watch?v=mFDoq-Dckus">YouTube</a> <span
+                            class="musicTable__newTab"> (otwórz w nowej karcie)</span></td>
+                </tr>
+            </table>
+            <p class="section__paragraph"><button class="section__button js-hideShowTableButton">Ukryj tabelę</button></p>
+        </section>
+        <section class="section" id="kontakt">
+            <h2 class="section__subHeader">Kontakt</h2>
+            <div class="section__contact js-contact">
+                <p>Email: <a href="mailto:pankiewicz.marcin@gmail.com"
+                        class="section__link">pankiewicz.marcin@gmail.com</a></p>
+                <p>Tel: <a href="tel:+48723327723" class="section__link">+48 723 327 723</a></p>
+            </div>
+            <p class="section__paragraph"><button class="section__button js-hideShowContactButton">Ukryj
+                    kontakt</button></p>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__paragraph">&copy Marcin Pankiewicz 2021r. Powered by <a target="_blank"
+                href="http://www.youcode.pl" class="footer__link"><strong>You<span
+                        class="footer__link--secondColour">Code</span>.pl</strong></a></p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+.musicTable {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.musicTable__caption {
+    padding: 10px;
+    caption-side: top;
+    text-align: left;
+}
+
+.musicTable__header--cell {
+    color: #fbfbfb;
+    background-color: #151726;
+}
+
+.musicTable__cell {
+    border: 1px solid #fbfbfb;
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+.musicTable__row:nth-child(even) {
+    background-color:rgba(12,12,12,0.2);
+}
+.musicTable__row:hover {
+    background-color: #ececec;
+}
+
+.musicTable__link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.musicTable__newTab {
+    font-size: 8px;
+}
+
+.tableOff {
+    display: none;
+}
+
