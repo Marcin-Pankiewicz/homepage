@@ -6,23 +6,20 @@
     text-align: left;
     margin: 22px auto;
     padding-left: 0;
-    font-weight: bold;
 }
 
 .navigation__link {
-    color: #242d35;
+    color: #fbfbfb;
     padding: 5px;
-    border: 1px solid lightgray;
+    background-color: hsl(233, 29%, 12%);
     border-radius: 5px;
     text-decoration: 1px;
 }
 
 .navigation__link:hover {
-    padding: 6px;
-    box-shadow: 3px 2px 4px 1px #979797;
+    background-color: hsl(233, 29%, 30%);
 }
 
 .navigation__link:active {
-    color: currentColor;
-    box-shadow: 3px 2px 4px 1px black;
+    background-color: hsl(233, 29%, 45%);
 }
