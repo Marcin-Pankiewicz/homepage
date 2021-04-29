@@ -34,22 +34,22 @@
 
 .section__button {
     display: block;
-    margin: 30px auto;
+    margin: 10px auto;
+    max-width: 200px;
+    width: 100%;
     font-family: "Montserrat", sans-serif;
-    color: #242d35;
-    padding: 5px;
-    border-radius: 5px;
+    color: #fbfbfb;
+    padding: 15px;
+    border-radius: 20px;
     text-decoration: none;
-    background-color: #fbfbfb;
+    background-color: hsl(233, 29%, 12%);
     border: 1px solid #979797;
 }
 
 .section__button:hover {
-    padding: 5px;
-    box-shadow: 3px 2px 4px 1px #979797;
+    background-color: hsl(233, 29%, 30%);
 }
 
 .section__button:active {
-    color: currentColor;
-    box-shadow: 3px 2px 4px 1px black;
+    background-color: hsl(233, 29%, 45%);
 }
