@@ -2,7 +2,6 @@
     border-collapse: collapse;
     margin: 0 auto;
     width: 100%;
-    overflow-x: auto;
 }
 
 .musicTable__caption {
@@ -22,9 +21,11 @@
     text-align: center;
     vertical-align: middle;
 }
+
 .musicTable__row:nth-child(even) {
-    background-color:rgba(12,12,12,0.2);
+    background-color: rgba(12, 12, 12, 0.2);
 }
+
 .musicTable__row:hover {
     background-color: #ececec;
 }
@@ -41,4 +42,3 @@
 .tableOff {
     display: none;
 }
-
