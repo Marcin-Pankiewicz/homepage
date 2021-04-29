@@ -4,7 +4,7 @@ const hideShowImageButton = document.querySelector(".js-hideShowImageButton");
 const hideShowTableButton = document.querySelector(".js-hideShowTableButton");
 const hideShowContactButton = document.querySelector(".js-hideShowContactButton");
 const image = document.querySelector(".js-section__image");
-const musicTable = document.querySelector(".js-musicTable");
+const musicTable = document.querySelector(".js-tableContainer");
 const contact = document.querySelector(".js-contact")
 
 hideShowImageButton.addEventListener("click", () => {
