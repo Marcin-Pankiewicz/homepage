@@ -14,7 +14,7 @@
     max-width: 200px;
     background-color: hsl(233, 29%, 12%);
     border-radius: 20px;
-    text-decoration: 51px;
+    text-decoration: none;
 }
 
 .navigation__link:hover {
