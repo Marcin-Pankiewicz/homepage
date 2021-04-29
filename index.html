@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marcin Pankiewicz - Strona domowa - Wizytówka - Portfolio </title>
+    <link rel="icon" href="images/icon.png">
+    <meta property="og:image" content="images/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" />
@@ -13,12 +15,14 @@
     <link href="css/header.css" rel="stylesheet">
     <link href="css/navigation.css" rel="stylesheet">
     <link href="css/section.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
     <link href="css/musictable.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,300&display=swap"
+        rel="stylesheet">
 </head>
 
 <body class="body">
@@ -71,59 +75,63 @@
                 Poniżej umieściłem tebelę z artystami i utworami, które w chwili obecnej słucham na okrągło :) Jeśli
                 jest ktoś zainteresowany i chciałby posłuchać czego słucham to zapraszam do linków :)
             </p>
-            <table class="musicTable js-musicTable">
-                <caption class="musicTable__caption">Moje ulubione utwory </caption>
-                <tr class="musicTable__row">
-                    <th class="musicTable__cell musicTable__header--cell" scope="col"> Artysta</th>
-                    <th class="musicTable__cell musicTable__header--cell" scope="col">Tytuł</th>
-                    <th class="musicTable__cell musicTable__header--cell" scope="col">Rok wydania</th>
-                    <th class="musicTable__cell musicTable__header--cell" scope="col">Słuchaj w Youtube</th>
-                </tr>
-                <tr class="musicTable__row">
-                    <th class="musicTable__cell musicTable__header--cell" scope="row">Armin Van Buuren</th>
-                    <td class="musicTable__cell">Slow Lane</td>
-                    <td class="musicTable__cell">2020</td>
-                    <td class="musicTable__cell"><a target="_blank" class="musicTable__link"
-                            href="https://www.youtube.com/watch?v=YMkV-aK9r-s">YouTube</a> <span
-                            class="musicTable__newTab"> (otwórz w nowej karcie)</span>
-                    </td>
-                </tr>
-                <tr class="musicTable__row">
-                    <th class="musicTable__cell musicTable__header--cell" scope="row">David Guetta & Morten
-                    </th>
-                    <td class="musicTable__cell">Make It To Heaven</td>
-                    <td class="musicTable__cell">2019</td>
-                    <td class="musicTable__cell"><a target="_blank" class="musicTable__link"
-                            href="https://www.youtube.com/watch?v=SahRw77yvx0">YouTube</a><span
-                            class="musicTable__newTab"> (otwórz w nowej karcie)</span></td>
-                </tr>
-                <tr class="musicTable__row">
-                    <th class="musicTable__cell musicTable__header--cell" scope="row">Dylhen</th>
-                    <td class="musicTable__cell">Alive</td>
-                    <td class="musicTable__cell">2021</td>
-                    <td class="musicTable__cell"><a target="_blank" class="musicTable__link"
-                            href="https://www.youtube.com/watch?v=7YR6fED1P6Q">YouTube</a> <span
-                            class="musicTable__newTab"> (otwórz w nowej karcie)</span></td>
-                </tr>
-                <tr class="musicTable__row">
-                    <th class="musicTable__cell musicTable__header--cell" scope="row">Sander van Doorn</th>
-                    <td class="musicTable__cell">Golden</td>
-                    <td class="musicTable__cell">2021</td>
-                    <td class="musicTable__cell"><a target="_blank" class="musicTable__link"
-                            href="https://www.youtube.com/watch?v=OrdAuPMmtxw">YouTube</a> <span
-                            class="musicTable__newTab"> (otwórz w nowej karcie)</span></td>
-                </tr>
-                <tr class="musicTable__row">
-                    <th class="musicTable__cell musicTable__header--cell" scope="row">Gareth Emery feat.
-                        Evan Henzi</th>
-                    <td class="musicTable__cell">Call To Arms (Cosmic Gate Remix)</td>
-                    <td class="musicTable__cell">2018</td>
-                    <td class="musicTable__cell"><a target="_blank" class="musicTable__link"
-                            href="https://www.youtube.com/watch?v=mFDoq-Dckus">YouTube</a> <span
-                            class="musicTable__newTab"> (otwórz w nowej karcie)</span></td>
-                </tr>
-            </table>
-            <p class="section__paragraph"><button class="section__button js-hideShowTableButton">Ukryj tabelę</button></p>
+            <div class="tableContainer js-tableContainer">
+                <table class="musicTable js-musicTable">
+                    <caption class="musicTable__caption">Moje ulubione utwory </caption>
+                    <tr class="musicTable__row">
+                        <th class="musicTable__cell musicTable__header--cell" scope="col"> Artysta</th>
+                        <th class="musicTable__cell musicTable__header--cell" scope="col">Tytuł</th>
+                        <th class="musicTable__cell musicTable__header--cell" scope="col">Rok wydania</th>
+                        <th class="musicTable__cell musicTable__header--cell" scope="col">Słuchaj w Youtube</th>
+                    </tr>
+                    <tr class="musicTable__row">
+                        <th class="musicTable__cell musicTable__header--cell" scope="row">Armin Van Buuren</th>
+                        <td class="musicTable__cell">Slow Lane</td>
+                        <td class="musicTable__cell">2020</td>
+                        <td class="musicTable__cell"><a target="_blank" class="musicTable__link"
+                                href="https://www.youtube.com/watch?v=YMkV-aK9r-s">YouTube</a> <span
+                                class="musicTable__newTab"> (otwórz w nowej karcie)</span>
+                        </td>
+                    </tr>
+                    <tr class="musicTable__row">
+                        <th class="musicTable__cell musicTable__header--cell" scope="row">David Guetta & Morten
+                        </th>
+                        <td class="musicTable__cell">Make It To Heaven</td>
+                        <td class="musicTable__cell">2019</td>
+                        <td class="musicTable__cell"><a target="_blank" class="musicTable__link"
+                                href="https://www.youtube.com/watch?v=SahRw77yvx0">YouTube</a><span
+                                class="musicTable__newTab"> (otwórz w nowej karcie)</span></td>
+                    </tr>
+                    <tr class="musicTable__row">
+                        <th class="musicTable__cell musicTable__header--cell" scope="row">Dylhen</th>
+                        <td class="musicTable__cell">Alive</td>
+                        <td class="musicTable__cell">2021</td>
+                        <td class="musicTable__cell"><a target="_blank" class="musicTable__link"
+                                href="https://www.youtube.com/watch?v=7YR6fED1P6Q">YouTube</a> <span
+                                class="musicTable__newTab"> (otwórz w nowej karcie)</span></td>
+                    </tr>
+                    <tr class="musicTable__row">
+                        <th class="musicTable__cell musicTable__header--cell" scope="row">Sander van Doorn</th>
+                        <td class="musicTable__cell">Golden</td>
+                        <td class="musicTable__cell">2021</td>
+                        <td class="musicTable__cell"><a target="_blank" class="musicTable__link"
+                                href="https://www.youtube.com/watch?v=OrdAuPMmtxw">YouTube</a> <span
+                                class="musicTable__newTab"> (otwórz w nowej karcie)</span></td>
+                    </tr>
+                    <tr class="musicTable__row">
+                        <th class="musicTable__cell musicTable__header--cell" scope="row">Gareth Emery feat.
+                            Evan Henzi</th>
+                        <td class="musicTable__cell">Call To Arms (Cosmic Gate Remix)</td>
+                        <td class="musicTable__cell">2018</td>
+                        <td class="musicTable__cell"><a target="_blank" class="musicTable__link"
+                                href="https://www.youtube.com/watch?v=mFDoq-Dckus">YouTube</a> <span
+                                class="musicTable__newTab"> (otwórz w nowej karcie)</span></td>
+                    </tr>
+                </table>
+            </div>
+
+            <p class="section__paragraph"><button class="section__button js-hideShowTableButton">Ukryj tabelę</button>
+            </p>
         </section>
         <section class="section" id="kontakt">
             <h2 class="section__subHeader">Kontakt</h2>
