@@ -1,4 +1,5 @@
 .navigation__list {
+    padding: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -8,14 +9,13 @@
 @media(max-width: 767px) {
     .navigation__list {
         display: grid;
-        justify-content: center;
+        justify-items: center;
         grid-template-columns: 1fr;
         grid-gap: 10px;
     }
 }
 
 .navigation__item {
-
     text-align: center;
 
 }
