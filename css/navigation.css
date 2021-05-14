@@ -1,17 +1,30 @@
 .navigation__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     list-style-type: none;
 }
 
+@media(max-width: 767px) {
+    .navigation__list {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+}
+
 .navigation__item {
+
     text-align: center;
-    margin: 5px auto;
+
 }
 
 .navigation__link {
     display: block;
     color: #fbfbfb;
     padding: 15px;
-    max-width: 200px;
+    width: 200px;
     background-color: hsl(233, 29%, 12%);
     border-radius: 20px;
     text-decoration: none;
